@@ -270,10 +270,10 @@ p{
   /* .mycontrol small{
       visibility: hidden;
   } */
-   /* small{
+   small{
       visibility: hidden;
       color: red;
-  } */
+  }
 
   .textOnInput {
     position: relative;
@@ -331,8 +331,26 @@ form{
 }
 @media only screen and (max-width: 650px){
    form{
-       padding-left: 14%;
+       /* padding-left: 14%; */
+       width: auto;
    }
+   .form-card{
+    width: auto;
+}
+.grid-container-main{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+.form-control {
+    box-shadow: none !important;
+    width: auto !important;
+
+}
+.form-control {
+    box-shadow: none !important;
+    width: 300px !important;
+
+}
 }
 form .form-group .textOnInpu  input{
     text-align: center;
