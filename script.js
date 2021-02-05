@@ -1,6 +1,6 @@
 function  myStyleNumber(){
      document.getElementById("lebel").style.display="block";
-     document.getElementByTagName("number").sty
+     document.getElementByTagName("small").style.display="block";
   
 }
 function  myStyleName(){
@@ -20,4 +20,7 @@ function validateNumber(){
         document.getElementByTagName(small).style.visibility="hidden";
     }
     // else{
-    //     document.getElementsByClassName(".mycontrol.success 
+    //     document.getElementsByClassName(".mycontrol.success input").style.borderColor="green";
+    // }
+
+}
