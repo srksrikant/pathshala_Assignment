@@ -1,6 +1,5 @@
 function  myStyleNumber(){
      document.getElementById("lebel").style.display="block";
-     document.getElementByTagName("small").style.display="block";
   
 }
 function  myStyleName(){
@@ -12,15 +11,16 @@ function  myStyleEmail(){
  
 }
 console.log("xyz");
+
+
 function validateNumber(){
-    var myNumber =document.getElementById("number").value;
-   console.log("myNumber");
+    var myNumber = document.getElementById("number").value;
+   console.log(myNumber);
   
     if (  myNumber.match("/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/")){
-        document.getElementByTagName(small).style.visibility="hidden";
-    }
+        document.getElementByTagName(small).style.visibility="visible";
     // else{
     //     document.getElementsByClassName(".mycontrol.success input").style.borderColor="green";
     // }
-
+    }
 }

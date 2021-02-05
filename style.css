@@ -270,10 +270,10 @@ p{
   /* .mycontrol small{
       visibility: hidden;
   } */
-   small{
+   /* small{
       visibility: hidden;
       color: red;
-  }
+  } */
 
   .textOnInput {
     position: relative;
